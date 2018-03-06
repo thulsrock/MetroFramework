@@ -1,0 +1,13 @@
+@CHARSET "ISO-8859-1";
+
+.flex {
+	display: table;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+.flex_column {
+	width: 100%;
+	clear: both;
+}

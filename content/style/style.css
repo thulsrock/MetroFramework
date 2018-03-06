@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+@import url("main.css");
+@import url("nav.css");
+
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+html {
+	margin: 0;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: white;
+	font-size: 1em;
+	min-width: 385px;
+	overflow: auto;
+	box-sizing: border-box;
+}

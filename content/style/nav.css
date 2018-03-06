@@ -1,0 +1,26 @@
+nav {
+	overflow: hidden;
+	border-bottom: 1px solid var(--dark_green);
+	border-top: 1px solid var(--dark_green);
+	padding-bottom: 1px;
+	padding-top: 1px;
+}
+nav a {
+	padding: 8px 12px 4px 12px;
+	text-decoration: none;
+	display: inline-block;
+	border-bottom: 4px solid transparent;
+}
+nav a.active {
+	border-bottom: 4px solid var(--dark_green);;
+}
+nav a:hover {
+	background: var(--dark_green);
+	color: white;
+}
+#navTrigger {
+	display: none;
+	position: absolute;
+    right: 20px;
+	z-index: 1;
+}
