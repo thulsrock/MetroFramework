@@ -8,7 +8,7 @@ define('DB_NAME', 'MetroFramework');
 define('DB_CHARSET', 'UTF8');
 
 // URLs
-define( 'ROOT', 'http://' . $_SERVER['SERVER_NAME'] .'/MetroFramework-stable/' );
+define( 'ROOT', 'http://' . $_SERVER['SERVER_NAME'] .'/MetroFramework/' );
 define( 'CLASS_DIR', 'class/' );
 define( 'SOURCES', 'sources/' );
 define( 'VENDOR', 'vendor/');
