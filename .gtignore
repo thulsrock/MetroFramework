@@ -8,7 +8,6 @@ DB/
 # composer.lock
 .project
 .settings
-.gitignore
 .buildpath
 restoreDB.php
 composer.phar
